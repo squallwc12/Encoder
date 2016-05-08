@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\FWlib\inc -I..\..\Libraries\FWlib\src -I..\..\Libraries\CMSIS -I..\..\User -I..\..\User\HardwareDriver 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\..\Output\can.o" --omf_browse "..\..\Output\can.crf" --depend "..\..\Output\can.d" "..\..\User\HardwareDriver\can.c"

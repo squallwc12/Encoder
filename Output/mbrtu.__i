@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\FWlib\inc -I..\..\Libraries\FWlib\src -I..\..\Libraries\CMSIS -I..\..\User -I..\..\User\HardwareDriver -I..\..\User\DP -I..\..\User\port -I..\..\User\modbus -I..\..\User\modbus\include -I..\..\User\modbus\rtu -I..\..\User\modbus\functions 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\..\Output\mbrtu.o" --omf_browse "..\..\Output\mbrtu.crf" --depend "..\..\Output\mbrtu.d" "..\..\User\modbus\rtu\mbrtu.c"

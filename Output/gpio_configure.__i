@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\FWlib\inc -I..\..\Libraries\FWlib\src -I..\..\Libraries\CMSIS -I..\..\User -I..\..\User\HardwareDriver -I..\..\User\DP 
+-I D:\Keil\ARM\RV31\INC 
+-I D:\Keil\ARM\CMSIS\Include 
+-I D:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\..\Output\gpio_configure.o" --omf_browse "..\..\Output\gpio_configure.crf" --depend "..\..\Output\gpio_configure.d" "..\..\User\HardwareDriver\GPIO_Configure.c"
